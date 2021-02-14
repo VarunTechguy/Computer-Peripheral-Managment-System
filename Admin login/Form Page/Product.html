@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/uikit.min.css" />
+  <script src="../../js/uikit.min.js"></script>
+  <script src="../../js/uikit-icons.min.js"></script>
+</head>
+<body>
+
+  <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding"
+    data-src="../../img/form.jpg" uk-img uk-height-viewport>
+
+    <div class="uk-card uk-card-secondary uk-width-1-3@m uk-card-primary uk-posstion-center uk-card-small uk-posstion-center" style="opacity: 0.9; border-radius: 20px;">
+        
+      <h2 class="uk-text-center uk-margin-medium-top uk-margin-small-left uk-margin-small-right">Enter The Product Details</h2>
+    
+        <form class="uk-padding" action="product.php" method="POST">
+          
+          <input type="text" class="uk-input uk-margin" placeholder="Product id" name="Pid" required style="border-radius: 20px;">    
+          
+          <input type="text" class="uk-input uk-margin" placeholder="Product Name"  name="Pname" required style="border-radius: 20px;">
+    
+          <input type="number" class="uk-input uk-margin" placeholder="Year Of Manufacture" name="Myear" required style="border-radius: 20px;">
+    
+          <button class="uk-button uk-button-primary uk-align-center  button-large" type="submit" style="border-radius: 20px;">Submit</button>
+    
+        </form>
+      </div>
+
+  </div>
+   
+  
+
+</body>
+
+</html>

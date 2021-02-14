@@ -1,0 +1,303 @@
+<html>
+    <head>
+        <title>CPMS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 2%;
+    }
+
+#lastcard
+{
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+
+
+ }
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+</style>
+
+ <body bgcolor="black">
+
+<div id="offcanvas-slide" uk-offcanvas>
+  <div class="uk-offcanvas-bar">
+
+      <ul class="uk-nav uk-nav-default">
+          <li class="uk-nav-header">Login To</li>
+          <li class="uk-nav-divider"></li>
+          <li><a href="Admin login/login.php">Admin</a></li>
+
+          <li><a href="login form/Salesman_login.php">Salesman</a></li>
+      </ul>
+
+  </div>
+</div>
+
+
+<div class="uk-offcanvas-content">
+    <div class="uk-position-relative">
+
+            <div class="uk-height-max-large" id="home" uk-height-viewport="offset-bottom: 10">
+
+                <video autoplay loop muted playsinline uk-cover>
+                    <source src="videos/battelfield.mp4" type="video/mp4">
+                </video>
+
+            </div>
+            <div class="uk-cover-container uk-position-center">
+                <div class="uk-card uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+                    <h2 class="uk-text" style="color: #ffffff;">Computer Peripheral Management System</h2>
+                    <a href="#offcanvas-slide" class="uk-button uk-background-primary uk-button-large" style="border-radius: 20px; color: #ffffff;" uk-toggle>Login</a>
+                    <p class="uk-text" style="color: #ffffff;">Find the right product for you.</p>
+                </div>
+              </div>
+</div>
+</div>
+<br><br><br>
+<h1 class="uk-heading-divider"></h1>
+
+<p class="uk-text-primary uk-text-center uk-text-bolder" style="font-size: 50px;"><b>Products available to purchase</b></p>
+
+
+<div class="c1">
+   <div class="card">
+
+    <div class="image">
+      <img src="https://techcrunch.com/wp-content/uploads/2019/03/data-center-tesla-p100-social-media-1200.jpg">
+    </div>
+    <div class="title">
+      <h1><b>GPU</b></h1>
+    </div>
+    <div class="des">
+
+    </div>
+  </div>
+
+  <div class="card">
+
+  <div class="image">
+   <img src="https://assets.pcmag.com/media/images/590086-buying-a-motherboard.jpg?thumb=y&width=810&height=456">
+  </div>
+  <div class="title">
+     <h1><b>Motherboard</b></h1>
+  </div>
+    <div class="des">
+
+    </div>
+  </div>
+
+  <div class="card">
+
+  <div class="image">
+     <img src="https://pics.computerbase.de/8/7/5/8/5/article-1280x720.550da29a.jpg">
+  </div>
+  <div class="title">
+     <h1><b>Cabinet</b></h1>
+  </div>
+  <div class="des">
+
+  </div>
+  </div>
+
+  <div class="card">
+
+  <div class="image">
+     <img src="https://pixfeeds.com/images/technology/computer-hardware/1280-507531232-central-computer-processor.jpg">
+  </div>
+  <div class="title">
+     <h1><b>Processors</b></h1>
+  </div>
+  <div class="des">
+
+  </div>
+  </div>
+
+  <div class="card" id="lastcard">
+    <div class="image">
+      <img src="https://www.nerdytec.com/images/product_images/original_images/Support_Case_Back.jpg">
+    </div>
+    <div class="title">
+      <h1><b>Keyboard and mouse combo</b></h1>
+    </div>
+  </div>
+
+</div>
+
+<h1 class="uk-heading-divider"></h1>
+
+<div class="uk-section uk-section-large uk-padding-remove" style="background-color: #000000">
+
+    <div class="uk-container uk-container-large">
+        <br>
+        <p class="uk-text-primary uk-text-center uk-text-bolder" style="font-size: 50px;"><u>Upcoming</u> <u>Products</u></p>
+        <br>
+        <br>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+          <div onclick="location.href='https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-ti'">
+
+                 <div class="image">
+                   <img src="https://www.pcgamesn.com/wp-content/uploads/2018/10/Nvidia-RTX-2080-Ti-review.jpg">
+                 </div>
+                 <div class="title">
+                   <h1><b>RTX 2080 Ti</b></h1>
+                 </div>
+          </div>
+
+          <div onclick="location.href='https://www.amd.com/en/technologies/rdna'">
+
+              <div class="image">
+                 <img src="https://diit.cz/sites/default/files/amd_navi_rdna_graphics_architecture_01.png">
+                </div>
+                <div class="title">
+                   <h1><b>AMD RDNA Architecture</b></h1>
+                </div>
+
+          </div>
+
+          <div onclick="location.href='http://www.msi.com/Landing/AMD-AM4-motherboard-rise-ryzen'">
+              <div class="image">
+
+                   <img src="img/MSI.jpg">
+                </div>
+                <div class="title">
+                   <h1><b>MSI am4 motherboard</b></h1>
+                </div>
+
+          </div>
+        </div>
+    </div>
+</div>
+<!--- <h1 class="uk-heading-divider"><b>Products yet to be released</b></h1>
+  <div class="uk-section uk-align-center">
+
+      <div class="c1">
+          <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-ti/">
+           <div class="card">
+
+            <div class="image">
+              <img src="https://www.pcgamesn.com/wp-content/uploads/2018/10/Nvidia-RTX-2080-Ti-review.jpg">
+            </div>
+            <div class="title">
+              <h1><b>RTX 2080 Ti</b></h1>
+            </div>
+            <div class="des">
+
+            </div>
+          </div>
+        </a>
+
+          <div class="card">
+
+          <div class="image">
+            <a href="https://www.amd.com/en/technologies/rdna">
+           <img src="https://diit.cz/sites/default/files/amd_navi_rdna_graphics_architecture_01.png">
+          </div>
+          <div class="title">
+             <h1><b>AMD RDNA Architecture</b></h1>
+          </div>
+            <div class="des">
+
+            </div>
+          </div></a>
+
+          <div class="card">
+
+          <div class="image">
+            <a href="https://www.msi.com/Landing/AMD-AM4-motherboard-rise-ryzen">
+             <img src="http://www.eteknix.com/wp-content/uploads/2014/05/MSI_Z97_Gaming7.jpg">
+          </div>
+          <div class="title">
+             <h1><b>MSI am4 motherboard</b></h1>
+          </div>
+          <div class="des">
+
+          </div>
+        </div></a>
+
+        </div>
+
+  </div> -->
+
+  <h1 class="uk-heading-divider"></h1>
+
+
+  <div class="uk-section uk-section-large uk-padding-remove" id="about" style="background-color: black;">
+      <br>
+      <br>
+          <p class="uk-text-primary uk-text-center uk-text-bolder" style="font-size: 50px;"><u>About</u> <u>Us</u></p> <br>
+          <div class="uk-text-center">
+            <span uk-icon="icon:  info; ratio: 4.5 " style="color:#ffff;"> </span> <br>
+          </div>
+          <p class="uk-text-muted uk-text-justify uk-text-bolder uk-align-center uk-width-1-2" style="font-size: 20px; font-family: 'Times New Roman', Times, serif">
+
+              Hey there people! If you want to find the product which perfectly matches your requirement, then you are at the right place.
+              This is the platform where the salesman and the shop owners can easily stay connected. Here you are to find the right product for you
+          </p>
+      <br>
+      <br>
+       </div>
+
+
+  <h1 class="uk-heading-divider"></h1>
+
+
+<div class="uk-section uk-text-center" style="background-color: #000000">
+    <a href="#" uk-totop uk-scroll style="color: #ffffff;">
+    <p style="color: #ffffff;">Top</p> </a>
+</div>
+
+
+</body>
+</html>
